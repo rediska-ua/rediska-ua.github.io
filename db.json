@@ -161,7 +161,7 @@
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [15,16,17],
     "categoryId": 4,
-  },],
+  }],
   "productsCategories": [{
     "categoryId": 1,
     "url": "childish",
