@@ -7,7 +7,7 @@
     "price": 4099,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [2,3,4],
-    "categoryId": 1,
+    "categoryId": 1
   }, {
     "productId": 2,
     "url": "Apollo_Neo",
@@ -16,7 +16,7 @@
     "price": 5199,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [1,3,4],
-    "categoryId": 1,
+    "categoryId": 1
   }, {
     "productId": 3,
     "url": "Vento_Tornado",
@@ -25,7 +25,7 @@
     "price": 3599,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [1,2,4],
-    "categoryId": 1,
+    "categoryId": 1
   }, {
     "productId": 4,
     "url": "Discovery_Flint",
@@ -34,7 +34,7 @@
     "price": 4999,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [1,2,3],
-    "categoryId": 1,
+    "categoryId": 1
   }, {
     "productId": 5,
     "url": "Trinx_M116Pro",
@@ -43,7 +43,7 @@
     "price": 5999,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [6,7,8],
-    "categoryId": 2,
+    "categoryId": 2
   }, {
     "productId": 6,
     "url": "Crossride_Shark",
@@ -52,7 +52,7 @@
     "price": 8699,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [5,7,8],
-    "categoryId": 2,
+    "categoryId": 2
   }, {
     "productId": 7,
     "url": "Corrado_Namito",
@@ -61,7 +61,7 @@
     "price": 11500,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [5,6,8],
-    "categoryId": 2,
+    "categoryId": 2
   }, {
     "productId": 8,
     "url": "Ardis_Vincent",
@@ -70,7 +70,7 @@
     "price": 9699,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [5,6,7],
-    "categoryId": 2,
+    "categoryId": 2
   }, {
     "productId": 9,
     "url": "Centurion_Hyperdrive",
@@ -79,7 +79,7 @@
     "price": 12800,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [10,11,12,13,14],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 10,
     "url": "Apollo_Giro",
@@ -88,7 +88,7 @@
     "price": 15650,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [9,11,12,13,14],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 11,
     "url": "COMP_Harvard_HDD_29",
@@ -97,7 +97,7 @@
     "price": 11500,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [9,10,12,13,14],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 12,
     "url": "Orbea_Orca",
@@ -106,7 +106,7 @@
     "price": 11500,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [9,10,11,13,14],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 13,
     "url": "TRINX_Tempo",
@@ -115,7 +115,7 @@
     "price": 13500,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [9,10,11,12,14],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 14,
     "url": "Orbea_Avant",
@@ -124,7 +124,7 @@
     "price": 14799,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [9,10,11,12,13],
-    "categoryId": 3,
+    "categoryId": 3
   }, {
     "productId": 15,
     "url": "TechnoRitm_M-13",
@@ -133,7 +133,7 @@
     "price": 13999,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [16,17,18],
-    "categoryId": 4,
+    "categoryId": 4
   }, {
     "productId": 16,
     "url": "LUX_AM",
@@ -142,7 +142,7 @@
     "price": 21999,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [15,17,18],
-    "categoryId": 4,
+    "categoryId": 4
   }, {
     "productId": 17,
     "url": "MTB_Kelbbike",
@@ -151,7 +151,7 @@
     "price": 15999,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [15,16,18],
-    "categoryId": 4,
+    "categoryId": 4
   }, {
     "productId": 18,
     "url": "KALIBER_26",
@@ -160,48 +160,48 @@
     "price": 14500,
     "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
     "relatedProductIds": [15,16,17],
-    "categoryId": 4,
+    "categoryId": 4
   }],
   "productsCategories": [{
     "categoryId": 1,
     "url": "childish",
     "name": "Детские",
-    "description": "Детские велосипеды",
+    "description": "Детские велосипеды"
   }, {
     "categoryId": 2,
     "url": "sport",
     "name": "Спортивные",
-    "description": "Спортивные велосипеды",
+    "description": "Спортивные велосипеды"
   }, {
     "categoryId": 3,
     "url": "highways",
     "name": "Шоссейные",
-    "description": "Шоссейные велосипеды",
+    "description": "Шоссейные велосипеды"
   }, {
     "categoryId": 4,
     "url": "electro",
     "name": "Электрические",
-    "description": "Электрические велосипеды",
+    "description": "Электрические велосипеды"
   }],
   "recommendations": [18,15,13,9,7,1], 
   "actions": [{
     "url": "electro_change",
     "name": "Акция Пересядь на электровелосипед!",
     "description": "20% на акционный товар из категории Электровелосипеды",
-    "datePosted": "25.05.2020",
+    "datePosted": "25.05.2020"
   }, {
     "url": "avant_sale",
     "name": "Распродажа велосипедов марки Avant!",
     "description": "Приобрести новый велосипед марки Avant по вкусной цене",
-    "datePosted": "18.05.2020",
+    "datePosted": "18.05.2020"
   }, {
     "url": "free_service",
     "name": "Получи ваучер на бесплатное обслуживание!",
     "description": "При покупке акционного товара получите ваучер на бесплатное обслуживание велосипеда",
-    "datePosted": "18.05.2020",
+    "datePosted": "18.05.2020"
   }],
   "orders": [],
   "sliderData": [{
-    "url": "",
+    "url": ""
   }],
 }
