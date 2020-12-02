@@ -1,6 +1,6 @@
 {
   "products": [{
-    "productId": 1,
+    "id": 1,
     "url": "Crossride_Freestyle_20",
     "productName": "Велосипед Crossride Freestyle 20 Черный",
     "productDescription": "Велосипед Crossride Freestyle 20 Черный",
@@ -9,7 +9,7 @@
     "relatedProductIds": [2,3,4],
     "categoryId": 1
   }, {
-    "productId": 2,
+    "id": 2,
     "url": "Apollo_Neo",
     "productName": "Велосипед Apollo Neo",
     "productDescription": "Велосипед Apollo Neo girls Brushed Alloy M 20 2018 White/Violet",
@@ -18,7 +18,7 @@
     "relatedProductIds": [1,3,4],
     "categoryId": 1
   }, {
-    "productId": 3,
+    "id": 3,
     "url": "Vento_Tornado",
     "productName": "Велосипед Vento Tornado",
     "productDescription": "Велосипед Vento Tornado 20 20 11 Violet Gloss",
@@ -27,7 +27,7 @@
     "relatedProductIds": [1,2,4],
     "categoryId": 1
   }, {
-    "productId": 4,
+    "id": 4,
     "url": "Discovery_Flint",
     "productName": "Велосипед детский 24 Discovery Flint",
     "productDescription": "Велосипед детский 24 Discovery Flint AM DD 2020 черно-зеленый",
@@ -36,7 +36,7 @@
     "relatedProductIds": [1,2,3],
     "categoryId": 1
   }, {
-    "productId": 5,
+    "id": 5,
     "url": "Trinx_M116Pro",
     "productName": "Велосипед Trinx M116Pro Expert",
     "productDescription": "Велосипед Trinx M116Pro Expert 29 17 2020 Black-White-Blue",
@@ -45,7 +45,7 @@
     "relatedProductIds": [6,7,8],
     "categoryId": 2
   }, {
-    "productId": 6,
+    "id": 6,
     "url": "Crossride_Shark",
     "productName": "Велосипед Crossride Shark",
     "productDescription": "Велосипед Crossride Shark 24 13 2019 Серый",
@@ -54,7 +54,7 @@
     "relatedProductIds": [5,7,8],
     "categoryId": 2
   }, {
-    "productId": 7,
+    "id": 7,
     "url": "Corrado_Namito",
     "productName": "Велосипед Corrado Namito 26",
     "productDescription": "Велосипед Corrado Namito 26 14.5 2019 Черно-серый",
@@ -63,7 +63,7 @@
     "relatedProductIds": [5,6,8],
     "categoryId": 2
   }, {
-    "productId": 8,
+    "id": 8,
     "url": "Ardis_Vincent",
     "productName": "Велосипед Ardis Vincent",
     "productDescription": "Велосипед Ardis Vincent 26 19.5 2019 Серо-оранжевый",
@@ -72,7 +72,7 @@
     "relatedProductIds": [5,6,7],
     "categoryId": 2
   }, {
-    "productId": 9,
+    "id": 9,
     "url": "Centurion_Hyperdrive",
     "productName": "Велосипед Centurion HYPERDRIVE",
     "productDescription": "Велосипед Centurion HYPERDRIVE 300 matt-black",
@@ -81,7 +81,7 @@
     "relatedProductIds": [10,11,12,13,14],
     "categoryId": 3
   }, {
-    "productId": 10,
+    "id": 10,
     "url": "Apollo_Giro",
     "productName": "Велосипед Apollo Giro",
     "productDescription": "Велосипед Apollo Giro 10 28",
@@ -90,7 +90,7 @@
     "relatedProductIds": [9,11,12,13,14],
     "categoryId": 3
   }, {
-    "productId": 11,
+    "id": 11,
     "url": "COMP_Harvard_HDD_29",
     "productName": "Велосипед COMP Harvard",
     "productDescription": "Велосипед COMP Harvard HDD 29 15.5 2020 Черно-зеленый",
@@ -99,7 +99,7 @@
     "relatedProductIds": [9,10,12,13,14],
     "categoryId": 3
   }, {
-    "productId": 12,
+    "id": 12,
     "url": "Orbea_Orca",
     "productName": "Велосипед Orbea Orca M30",
     "productDescription": "Велосипед Orbea Orca M30 53 2020 Grey - Yellow",
@@ -108,7 +108,7 @@
     "relatedProductIds": [9,10,11,13,14],
     "categoryId": 3
   }, {
-    "productId": 13,
+    "id": 13,
     "url": "TRINX_Tempo",
     "productName": "Велосипед TRINX Tempo",
     "productDescription": "Велосипед TRINX Tempo 2.0 2019 700C 54 см Matt-Black-Green",
@@ -117,7 +117,7 @@
     "relatedProductIds": [9,10,11,12,14],
     "categoryId": 3
   }, {
-    "productId": 14,
+    "id": 14,
     "url": "Orbea_Avant",
     "productName": "Велосипед Orbea Avant H60",
     "productDescription": "Велосипед Orbea Avant H60 2020 53 Blue-Red",
@@ -126,7 +126,7 @@
     "relatedProductIds": [9,10,11,12,13],
     "categoryId": 3
   }, {
-    "productId": 15,
+    "id": 15,
     "url": "TechnoRitm_M-13",
     "productName": "Электровелосипед TechnoRitm M-13",
     "productDescription": "Электровелосипед TechnoRitm M-13 Зеленый",
@@ -135,7 +135,7 @@
     "relatedProductIds": [16,17,18],
     "categoryId": 4
   }, {
-    "productId": 16,
+    "id": 16,
     "url": "LUX_AM",
     "productName": "Электровелосипед 26 LUX AM",
     "productDescription": "Электровелосипед 26 LUX AM, 350Вт 36В, 10.4Ач, макс.пробег 40км, 40 км/ч (рубиновый) ",
@@ -144,7 +144,7 @@
     "relatedProductIds": [15,17,18],
     "categoryId": 4
   }, {
-    "productId": 17,
+    "id": 17,
     "url": "MTB_Kelbbike",
     "productName": "Электровелосипед MTB Kelbbike 26",
     "productDescription": "Электровелосипед MTB Kelbbike 26 (PAS) 350W черно-красный",
@@ -153,7 +153,7 @@
     "relatedProductIds": [15,16,18],
     "categoryId": 4
   }, {
-    "productId": 18,
+    "id": 18,
     "url": "KALIBER_26",
     "productName": "Электровелосипед KALIBER 26",
     "productDescription": "Электровелосипед KALIBER 26 колесо 36В 350Вт 10Ач с LCD пультом управления черный",
@@ -163,22 +163,22 @@
     "categoryId": 4
   }],
   "productsCategories": [{
-    "categoryId": 1,
+    "id": 1,
     "url": "childish",
     "name": "Детские",
     "description": "Детские велосипеды"
   }, {
-    "categoryId": 2,
+    "id": 2,
     "url": "sport",
     "name": "Спортивные",
     "description": "Спортивные велосипеды"
   }, {
-    "categoryId": 3,
+    "id: 3,
     "url": "highways",
     "name": "Шоссейные",
     "description": "Шоссейные велосипеды"
   }, {
-    "categoryId": 4,
+    "id": 4,
     "url": "electro",
     "name": "Электрические",
     "description": "Электрические велосипеды"
