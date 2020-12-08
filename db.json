@@ -5,7 +5,7 @@
     "productName": "Велосипед Crossride Freestyle 20 Черный",
     "productDescription": "Велосипед Crossride Freestyle 20 Черный",
     "price": 4099,
-    "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+    "images": ["https://github.com/rediska-ua/websiteShop/blob/main/assets/crossride.jpg", "https://github.com/rediska-ua/websiteShop/blob/main/assets/appoloneo.jpg", "https://github.com/rediska-ua/websiteShop/blob/main/assets/vento.jpg"],
     "relatedProductIds": [2,3,4],
     "categoryId": 1
   }, {
