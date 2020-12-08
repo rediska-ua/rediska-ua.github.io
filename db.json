@@ -7,7 +7,6 @@
     "price": 4099,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [2,3,4],
-    "categoryId": 1
   }, {
     "id": 2,
     "url": "Apollo_Neo",
@@ -16,7 +15,6 @@
     "price": 5199,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,3,4],
-    "categoryId": 1
   }, {
     "id": 3,
     "url": "Vento_Tornado",
@@ -25,7 +23,6 @@
     "price": 3599,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,2,4],
-    "categoryId": 1
   }, {
     "id": 4,
     "url": "Discovery_Flint",
@@ -34,7 +31,6 @@
     "price": 4999,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,2,3],
-    "categoryId": 1
   }, {
     "id": 5,
     "url": "Trinx_M116Pro",
@@ -43,7 +39,6 @@
     "price": 5999,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [6,7,8],
-    "categoryId": 2
   }, {
     "id": 6,
     "url": "Crossride_Shark",
@@ -52,7 +47,6 @@
     "price": 8699,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [5,7,8],
-    "categoryId": 2
   }, {
     "id": 7,
     "url": "Corrado_Namito",
@@ -61,7 +55,6 @@
     "price": 11500,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [5,6,8],
-    "categoryId": 2
   }, {
     "id": 8,
     "url": "Ardis_Vincent",
@@ -70,7 +63,6 @@
     "price": 9699,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [5,6,7],
-    "categoryId": 2
   }, {
     "id": 9,
     "url": "Centurion_Hyperdrive",
@@ -79,7 +71,6 @@
     "price": 12800,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [10,11,12,13,14],
-    "categoryId": 3
   }, {
     "id": 10,
     "url": "Apollo_Giro",
@@ -88,7 +79,6 @@
     "price": 15650,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [9,11,12,13,14],
-    "categoryId": 3
   }, {
     "id": 11,
     "url": "COMP_Harvard_HDD_29",
@@ -97,7 +87,6 @@
     "price": 11500,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [9,10,12,13,14],
-    "categoryId": 3
   }, {
     "id": 12,
     "url": "Orbea_Orca",
@@ -106,7 +95,6 @@
     "price": 11500,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [9,10,11,13,14],
-    "categoryId": 3
   }, {
     "id": 13,
     "url": "TRINX_Tempo",
@@ -115,7 +103,6 @@
     "price": 13500,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [9,10,11,12,14],
-    "categoryId": 3
   }, {
     "id": 14,
     "url": "Orbea_Avant",
@@ -124,7 +111,6 @@
     "price": 14799,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [9,10,11,12,13],
-    "categoryId": 3
   }, {
     "id": 15,
     "url": "TechnoRitm_M-13",
@@ -133,7 +119,6 @@
     "price": 13999,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [16,17,18],
-    "categoryId": 4
   }, {
     "id": 16,
     "url": "LUX_AM",
@@ -142,7 +127,6 @@
     "price": 21999,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [15,17,18],
-    "categoryId": 4
   }, {
     "id": 17,
     "url": "MTB_Kelbbike",
@@ -151,7 +135,6 @@
     "price": 15999,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [15,16,18],
-    "categoryId": 4
   }, {
     "id": 18,
     "url": "KALIBER_26",
@@ -160,28 +143,31 @@
     "price": 14500,
     "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [15,16,17],
-    "categoryId": 4
   }],
   "productsCategories": [{
     "id": 1,
     "url": "childish",
     "name": "Детские",
-    "description": "Детские велосипеды"
+    "description": "Детские велосипеды",
+    "products": [1,2,3,4]
   }, {
     "id": 2,
     "url": "sport",
     "name": "Спортивные",
-    "description": "Спортивные велосипеды"
+    "description": "Спортивные велосипеды",
+    "products": [5,6,7,8]
   }, {
     "id": 3,
     "url": "highways",
     "name": "Шоссейные",
-    "description": "Шоссейные велосипеды"
+    "description": "Шоссейные велосипеды",
+    "products": [9,10,11,12,13,14]
   }, {
     "id": 4,
     "url": "electro",
     "name": "Электрические",
-    "description": "Электрические велосипеды"
+    "description": "Электрические велосипеды",
+    "products": [15,16,17,18]
   }],
   "recommendations": [18,15,13,9,7,1], 
   "actions": [{
