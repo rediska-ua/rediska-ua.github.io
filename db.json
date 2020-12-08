@@ -23,7 +23,7 @@
     "productName": "Велосипед Vento Tornado",
     "productDescription": "Велосипед Vento Tornado 20 20 11 Violet Gloss",
     "price": 3599,
-    "images": ["path/to/cdn.jpg", "relative/path/to/img.jpg"],
+    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,2,4],
     "categoryId": 1
   }, {
