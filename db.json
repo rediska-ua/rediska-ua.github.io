@@ -14,7 +14,7 @@
     "productName": "Велосипед Apollo Neo",
     "productDescription": "Велосипед Apollo Neo girls Brushed Alloy M 20 2018 White/Violet",
     "price": 5199,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/appoloneo.jpg", "assets/crossride.jpg",  "assets/vento.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,3,4],
     "categoryId": 1
   }, {
