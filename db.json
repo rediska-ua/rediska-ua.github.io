@@ -23,7 +23,7 @@
     "productName": "Велосипед Vento Tornado",
     "productDescription": "Велосипед Vento Tornado 20 20 11 Violet Gloss",
     "price": 3599,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/vento.jpg", "assets/appoloneo.jpg", "assets/crossride.jpg", "assets/discoveryflint.jpg"],
     "relatedProductIds": [1,2,4],
     "categoryId": 1
   }, {
@@ -32,7 +32,7 @@
     "productName": "Велосипед детский 24 Discovery Flint",
     "productDescription": "Велосипед детский 24 Discovery Flint AM DD 2020 черно-зеленый",
     "price": 4999,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/discoveryflint.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/crossride.jpg"],
     "relatedProductIds": [1,2,3],
     "categoryId": 1
   }, {
@@ -41,7 +41,7 @@
     "productName": "Велосипед Trinx M116Pro Expert",
     "productDescription": "Велосипед Trinx M116Pro Expert 29 17 2020 Black-White-Blue",
     "price": 5999,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/trinx.jpg", "assets/shark.jpg", "assets/Centurion.jpg", "assets/ardis_vincent.jpg"],
     "relatedProductIds": [6,7,8],
     "categoryId": 2
   }, {
@@ -50,7 +50,7 @@
     "productName": "Велосипед Crossride Shark",
     "productDescription": "Велосипед Crossride Shark 24 13 2019 Серый",
     "price": 8699,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/shark.jpg", "assets/trinx.jpg", "assets/vento.jpg", "assets/ardis_vincent.jpg"],
     "relatedProductIds": [5,7,8],
     "categoryId": 2
   }, {
@@ -59,7 +59,7 @@
     "productName": "Велосипед Corrado Namito 26",
     "productDescription": "Велосипед Corrado Namito 26 14.5 2019 Черно-серый",
     "price": 11500,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/Centurion.jpg", "assets/trinx.jpg", "assets/shark.jpg", "assets/ardis_vincent.jpg"],
     "relatedProductIds": [5,6,8],
     "categoryId": 2
   }, {
@@ -68,7 +68,7 @@
     "productName": "Велосипед Ardis Vincent",
     "productDescription": "Велосипед Ardis Vincent 26 19.5 2019 Серо-оранжевый",
     "price": 9699,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/ardis_vincent.jpg", "assets/trinx.jpg", "assets/shark.jpg", "assets/Centurion.jpg"],
     "relatedProductIds": [5,6,7],
     "categoryId": 2
   }, {
@@ -77,7 +77,7 @@
     "productName": "Велосипед Centurion HYPERDRIVE",
     "productDescription": "Велосипед Centurion HYPERDRIVE 300 matt-black",
     "price": 12800,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/Centurion.jpg", "assets/appologiro.jpg", "assets/comp_harvard.jpg", "assets/orbea.jpg", "assets/trinx_tempo.jpg", "assets/orbea_avant.jpg"],
     "relatedProductIds": [10,11,12,13,14],
     "categoryId": 3
   }, {
@@ -86,7 +86,7 @@
     "productName": "Велосипед Apollo Giro",
     "productDescription": "Велосипед Apollo Giro 10 28",
     "price": 15650,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/appologiro.jpg", "assets/Centurion.jpg", "assets/comp_harvard.jpg", "assets/orbea.jpg", "assets/trinx_tempo.jpg", "assets/orbea_avant.jpg"],
     "relatedProductIds": [9,11,12,13,14],
     "categoryId": 3
   }, {
@@ -95,7 +95,7 @@
     "productName": "Велосипед COMP Harvard",
     "productDescription": "Велосипед COMP Harvard HDD 29 15.5 2020 Черно-зеленый",
     "price": 11500,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/comp_harvard.jpg", "assets/Centurion.jpg", "assets/appologiro.jpg", "assets/orbea.jpg", "assets/trinx_tempo.jpg", "assets/orbea_avant.jpg"],
     "relatedProductIds": [9,10,12,13,14],
     "categoryId": 3
   }, {
@@ -104,7 +104,7 @@
     "productName": "Велосипед Orbea Orca M30",
     "productDescription": "Велосипед Orbea Orca M30 53 2020 Grey - Yellow",
     "price": 11500,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/orbea.jpg", "assets/Centurion.jpg", "assets/appologiro.jpg", "assets/comp_harvard.jpg", "assets/trinx_tempo.jpg", "assets/orbea_avant.jpg"],
     "relatedProductIds": [9,10,11,13,14],
     "categoryId": 3
   }, {
@@ -113,7 +113,7 @@
     "productName": "Велосипед TRINX Tempo",
     "productDescription": "Велосипед TRINX Tempo 2.0 2019 700C 54 см Matt-Black-Green",
     "price": 13500,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/trinx_tempo.jpg", "assets/Centurion.jpg", "assets/appologiro.jpg", "assets/comp_harvard.jpg", "assets/orbea.jpg", "assets/orbea_avant.jpg"],
     "relatedProductIds": [9,10,11,12,14],
     "categoryId": 3
   }, {
@@ -122,7 +122,7 @@
     "productName": "Велосипед Orbea Avant H60",
     "productDescription": "Велосипед Orbea Avant H60 2020 53 Blue-Red",
     "price": 14799,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/orbea_avant.jpg", "assets/Centurion.jpg", "assets/appologiro.jpg", "assets/comp_harvard.jpg", "assets/orbea.jpg", "assets/trinx_tempo.jpg"],
     "relatedProductIds": [9,10,11,12,13],
     "categoryId": 3
   }, {
@@ -131,7 +131,7 @@
     "productName": "Электровелосипед TechnoRitm M-13",
     "productDescription": "Электровелосипед TechnoRitm M-13 Зеленый",
     "price": 13999,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/technoritm.jpg", "assets/lux.jpg", "assets/mtb.jpg", "assets/kaliber.jpg"],
     "relatedProductIds": [16,17,18],
     "categoryId": 4
   }, {
@@ -140,7 +140,7 @@
     "productName": "Электровелосипед 26 LUX AM",
     "productDescription": "Электровелосипед 26 LUX AM, 350Вт 36В, 10.4Ач, макс.пробег 40км, 40 км/ч (рубиновый) ",
     "price": 21999,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/lux.jpg", "assets/technoritm.jpg", "assets/mtb.jpg", "assets/kaliber.jpg"],
     "relatedProductIds": [15,17,18],
     "categoryId": 4
   }, {
@@ -149,7 +149,7 @@
     "productName": "Электровелосипед MTB Kelbbike 26",
     "productDescription": "Электровелосипед MTB Kelbbike 26 (PAS) 350W черно-красный",
     "price": 15999,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/mtb.jpg", "assets/lux.jpg", "assets/technoritm.jpg", "assets/kaliber.jpg"],
     "relatedProductIds": [15,16,18],
     "categoryId": 4
   }, {
@@ -158,7 +158,7 @@
     "productName": "Электровелосипед KALIBER 26",
     "productDescription": "Электровелосипед KALIBER 26 колесо 36В 350Вт 10Ач с LCD пультом управления черный",
     "price": 14500,
-    "images": ["assets/crossride.jpg", "assets/appoloneo.jpg", "assets/vento.jpg", "assets/discoveryflint.jpg"],
+    "images": ["assets/kaliber.jpg", "assets/technoritm.jpg", "assets/lux.jpg", "assets/mtb.jpg"],
     "relatedProductIds": [15,16,17],
     "categoryId": 4
   }],
