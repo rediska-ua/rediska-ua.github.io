@@ -3,7 +3,7 @@ const view = object => {
   return `
   <div class = "finishedOrder">
     <span>Ваш заказ №${object.id} принят на обработку</span>
-    <a href = "/#">Вернуться на главную</a>
+    <a href = "/websiteShop.github.io/#">Вернуться на главную</a>
   </div>
     `;
 }
