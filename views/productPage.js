@@ -13,7 +13,7 @@ const view = products => {
     <div class = "relatedProducts">
       ${products.filter(item => product.relatedProductIds.includes(item.id)).map(someProduct => `
         <div class = "relatedItemitem">
-          <a class = "productLink" href = ${"/#product/#" + someProduct.url} onclick = "">
+          <a class = "productLink" href = ${"/websiteShop.github.io/#product/#" + someProduct.url} onclick = "">
             <img src = "${someProduct.images[0]}" alt = "imageProduct" width = "250px" height = "150px">
           </a>
           <h2 class = "product_name">${someProduct.productName}</h2>
