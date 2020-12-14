@@ -6,7 +6,7 @@ const view = object => {
              <div class = "products">
                ${object.products.filter(item => item.categoryId === category.id).map(product => `
                   <div class = "product_item">
-                    <a class = "productLink" href = ${"/#product/#" + product.url} onclick = "">
+                    <a class = "productLink" href = ${"/websiteShop.github.io/#product/#" + product.url} onclick = "">
                       <img src = "${product.images[0]}" alt = "imageProduct" width = "450px" height = "300px">
                     </a>
                     <h2 class = "product_name">${product.productName}</h2>
