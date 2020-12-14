@@ -189,19 +189,19 @@
   }],
   "recommendations": [18,15,13,9,7,1], 
   "actions": [{
-    "url": "electro_change",
+    "url": "electroChange",
     "name": "Акция Пересядь на электровелосипед!",
     "description": "20% на акционный товар из категории Электровелосипеды",
     "datePosted": "25.05.2020",
     "image": "assets/electro_sale.jpg"
   }, {
-    "url": "avant_sale",
+    "url": "avantSale",
     "name": "Распродажа велосипедов марки Avant!",
     "description": "Приобрести новый велосипед марки Avant по вкусной цене",
     "datePosted": "18.05.2020",
     "image": "assets/avant_sale.jpg"
   }, {
-    "url": "free_service",
+    "url": "freeService",
     "name": "Получи ваучер на бесплатное обслуживание!",
     "description": "При покупке акционного товара получите ваучер на бесплатное обслуживание велосипеда",
     "datePosted": "18.05.2020",
