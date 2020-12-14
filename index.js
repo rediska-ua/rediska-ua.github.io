@@ -6,10 +6,13 @@ const router = new Router();
 const templateEngine = new TemplateEngine();
 const client = new Client();
 
+let place = document.getElementById('quantity');
+let quantity;
+
 
 const mainFunction = () => {
 
-  console.log("mainFunc")
+  quantity = place.innerText;
 
   templateEngine.toLoad();
 
@@ -27,6 +30,9 @@ const mainFunction = () => {
     })
     .then((data) => {
       templateEngine.render(view(data));
+      /*if (viewName === "mainPage") {
+        renderSlider();
+      }*/
     });
 }
 
@@ -73,6 +79,7 @@ globalThis.submitForm = () => {
     .then((data) => {
       globalThis.history.pushState({}, null, `/#order/order${data.id}`);
       templateEngine.render(view(data));
+      place.innerText = `0`;
       localStorage.clear();
     });
 
@@ -80,6 +87,8 @@ globalThis.submitForm = () => {
 }
 
 globalThis.addToCart = (id) => {
+  quantity++;
+  place.innerText = `${quantity}`;
   const value = JSON.parse(localStorage.getItem('cart'));
   if (value[id] === undefined) {
     value[id] = 1;
@@ -92,6 +101,8 @@ globalThis.addToCart = (id) => {
 }
 
 globalThis.removeFromCart = (id) => {
+  quantity--;
+  place.innerText = `${quantity}`;
   const value = JSON.parse(localStorage.getItem('cart'));
   --value[id];
   if(value[id] === 0) {
@@ -102,11 +113,19 @@ globalThis.removeFromCart = (id) => {
 
 }
 
+globalThis.processOrder = () => {
+  if (quantity == 0) {
+    globalThis.history.pushState({}, null, `/#`);
+    alert("Вы ничего не заказали");
+  } else {
+    globalThis.history.pushState({}, null, `/#order`);
+  }
+  mainFunction();
+}
+
 
 
 window.addEventListener('hashchange', () => mainFunction());
-//window.addEventListener('load', () =>  mainFunction())
-
 mainFunction()
 
 

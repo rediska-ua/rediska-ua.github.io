@@ -1,33 +1,34 @@
 const view = (orders) => {
   return `
     <form class = "order" id = "order">
-      <h2>Name</h2>
+      <h1>Введите данные для оформления заказа</h1>
+      <h2>Ваше имя</h2>
       <div class = "toValidate">
-        <input type = "text" class = "validationInput" placeholder = "Enter your name" id = "name" required pattern = "[A-Z][a-z]*">
+        <input type = "text" class = "validationInput" placeholder = "Пожалуйста, введите Ваше имя" id = "name" required pattern = "[А-Я][а-я]*">
       </div>
-      <h2>Last Name</h2>
+      <h2>Ваша фамилия</h2>
       <div class = "toValidate">
-        <input type = "text" class = "validationInput" placeholder = "Enter your last name" id = "lastname" required pattern = "[A-Z][a-z]*">
+        <input type = "text" class = "validationInput" placeholder = "Пожалуйста, введите Вашу фамилию" id = "lastname" required pattern = "[А-я][а-я]*">
       </div>
-      <h2>Phone Number</h2>
+      <h2>Ваш номер телефона</h2>
       <div class = "toValidate">
-        <input type = "tel" class = "validationInput" placeholder = "Enter your phone number" id = "phone" required pattern = "[+][3][8][0][0-9]{9}">
+        <input type = "tel" class = "validationInput" placeholder = "Пожалуйста, введите Ваш номер телефона" id = "phone" required pattern = "[+][3][8][0][0-9]{9}">
       </div>
-      <h2>City</h2>
+      <h2>Ваш город</h2>
       <div class = "toValidate">
-        <input type = "text" class = "validationInput" placeholder = "Enter your city" id = "city" required pattern = "[A-Z][a-z]*">
+        <input type = "text" class = "validationInput" placeholder = "Пожалуйста, введите Ваш город" id = "city" required pattern = "[А-Я][а-я]*">
       </div>
-      <h2>Address</h2>
+      <h2>Ваш адрес</h2>
       <div class = "toValidate">
-        <input type = "text" class = "validationInput" placeholder = "Enter your address" id = "address" required>
+        <input type = "text" class = "validationInput" placeholder = "Пожалуйста, введите Ваш адрес" id = "address" required>
       </div>
-      <h2>Email</h2>
+      <h2>Ваш Email</h2>
       <div class = "toValidate">
-        <input type = "email" class = "validationInput" placeholder = "Enter your email" id = "email" required pattern = "[a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*">
+        <input type = "email" class = "validationInput" placeholder = "Пожалуйста, введите Ваш email" id = "email" required pattern = "[a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*">
       </div>
       <div class = "buttonsOrder">
-        <button onclick = "submitForm()">Подтвердить</button>
-        <button onclick = "goBack()">Обратно к корзине</button>
+        <button class = "btn" onclick = "submitForm()">Подтвердить</button>
+        <button class = "btn" onclick = "goBack()">Обратно к корзине</button>
       </div>
     </form>
   `

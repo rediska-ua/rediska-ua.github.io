@@ -3,7 +3,9 @@ const view = object => {
   return `
   <div class = "finishedOrder">
     <span>Ваш заказ №${object.id} принят на обработку</span>
-    <a href = "/#">Вернуться на главную</a>
+    <button class = "cart_btn">
+      <a href = "/#">Вернуться на главную</a>
+    </button>
   </div>
     `;
 }

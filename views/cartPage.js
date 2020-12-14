@@ -4,19 +4,24 @@ const view = object => {
   let totalPrice = 0;
   products.map(product => totalPrice = totalPrice + product.price * storage[product.id]);
   return `
+  <h1>Ваша корзина</h1>
   <div class = "cart">
     ${products.map(product => `
       <div class = "cart_item">
-        <img src = "${product.images[0]}" alt = "imageProduct" width = "450px" height = "300px">
-        <h2 class = "product_name">${product.productName}</h2>
-        <span>${product.price}<span>
-        <button class = "btn" onclick = "addToCart(${product.id})">Добавить в корзину</button>
-        <span>${storage[product.id]}<span>
-        <button class = "btn" onclick = "removeFromCart(${product.id})">Убрать из корзины</button>
+        <div class = "cart_item_wrapper">
+          <img class = "productImage" src = "${product.images[0]}" alt = "imageProduct">
+          <h2 class = "product_name">${product.productName}</h2>
+        </div>
+        <div class = "positionInfo">
+          <span>${product.price * storage[product.id]}</span>
+          <button class = "cart_btn" onclick = "addToCart(${product.id})">Добавить в корзину</button>
+          <span>${storage[product.id]}</span>
+          <button class = "cart_btn" onclick = "removeFromCart(${product.id})">Убрать из корзины</button>
+        </div>
       </div>
     `).join('')}
-    <span>Total price is ${totalPrice}</span>
-    <a href = "/#order" onclick = "">Оформить заказ</a>
+    <span class = "totalPrice">Всего: ${totalPrice}</span>
+    <button class = "cart_btn" onclick = "processOrder()">Оформить заказ</button>
   </div>
     `;
 }

@@ -1,5 +1,8 @@
 class TemplateEngine {
   render(view) {
+    if (view === undefined) {
+      window.location.hash = '/#';
+    }
     const rootNode = document.getElementById('main');
     rootNode.innerHTML = view;
   }

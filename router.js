@@ -4,11 +4,6 @@ class Router {
     let viewName = '';
     let endpointName = '';
     switch (window.location.hash.split('#')[1]) {
-      case '':
-        window.location.hash = '';
-        viewName = "mainPage";
-        endpointName = 'db';
-        break;
       case 'catalog':
         viewName = 'catalogPage';
         endpointName = 'db';
@@ -29,8 +24,12 @@ class Router {
         viewName = 'cartPage';
         endpointName = 'db';
         break;
+      case 'actions/':
+        viewName = 'actionPage';
+        endpointName = 'actions';
+        break;
       default:
-        window.location.hash = '';
+        globalThis.history.pushState({}, null, `/#`);
         viewName = "mainPage";
         endpointName = 'db';
         break;
