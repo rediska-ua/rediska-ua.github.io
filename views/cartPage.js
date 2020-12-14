@@ -16,7 +16,7 @@ const view = object => {
       </div>
     `).join('')}
     <span>Total price is ${totalPrice}</span>
-    <a href = "/#order" onclick = "">Оформить заказ</a>
+    <a href = "/websiteShop.github.io/#order" onclick = "">Оформить заказ</a>
   </div>
     `;
 }
