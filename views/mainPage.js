@@ -4,7 +4,7 @@ const view = object => {
     <div class = "products">
       ${object.recommendations.map(product => object.products.filter(item => item.id === product).map(productItem =>  `
         <div class = "product_item">
-          <a class = "productLink" href = ${"/#product/#" + productItem.url} onclick = "">
+          <a class = "productLink" href = ${"/websiteShop.github.io/#product/#" + productItem.url} onclick = "">
             <img src = "${productItem.images[0]}" alt = "imageProduct" width = "450px" height = "300px">
           </a>
           <h2 class = "product_name">${productItem.productName}</h2>
