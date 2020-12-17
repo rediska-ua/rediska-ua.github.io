@@ -10,6 +10,28 @@ let place = document.getElementById('quantity');
 let quantity;
 
 
+const renderSlides = () => {
+
+  const slides = document.getElementsByClassName('slide');
+  slides[0].classList.add("current");
+
+  return slides;
+
+}
+
+  
+const nextSlide = (slides) => {
+  const current = document.getElementsByClassName("current")[0];
+  current.classList.remove("current");
+  if (current.nextElementSibling) {
+    current.nextElementSibling.classList.add("current");
+  } else {
+    slides[0].classList.add("current");
+  }
+};
+  
+
+
 const mainFunction = () => {
 
   quantity = place.innerText;
@@ -30,9 +52,13 @@ const mainFunction = () => {
     })
     .then((data) => {
       templateEngine.render(view(data));
-      /*if (viewName === "mainPage") {
-        renderSlider();
-      }*/
+      let idOfInterval;
+      if (viewName === "mainPage") {
+        const slides = renderSlides();
+        idOfInterval = setInterval(nextSlide, 5000, slides);
+      } else {
+        clearInterval(idOfInterval);
+      }
     });
 }
 

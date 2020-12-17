@@ -1,5 +1,19 @@
 const view = object => {
   return `
+  <div class="slider">
+    <div class = "wrapper">
+    ${object.actions.map(action => `
+      <div class="slide">
+        <div class="content">
+          <a href = ${"/#actions/#" + action.url}>
+            <img class = "slider_image" src = "${action.image}">
+          </a>
+          <h2>${action.name}</h2>
+        </div>
+      </div>
+    `).join('')}
+      </div>
+    </div>
     <h1>ТОП МЕСЯЦА</h1>
     <div class = "products">
       ${object.recommendations.map(product => object.products.filter(item => item.id === product).map(productItem =>  `

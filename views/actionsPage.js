@@ -1,7 +1,7 @@
 const view = actions => {
   return `
     <div class="actions">
-      <div class = "wrapper">
+      <div class = "wrapper_action">
         ${actions.map(action => `
             <div class="action_item">
               <div class="action_info">

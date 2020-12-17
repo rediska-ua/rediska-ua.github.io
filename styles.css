@@ -61,6 +61,36 @@ li a:hover {
   height: 25vw;
 }
 
+.content img {
+  width: 40vw;
+  height: 25vw;
+}
+
+.slider {
+  margin-top: 5vw;
+  position: relative;
+  width: 40vw;
+  height: 25vw;
+  margin-bottom: 5vw;
+}
+
+.wrapper {
+  position: relative;
+  width: 40vw;
+  height: 25vw;
+}
+
+.slide {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.5s linear;
+}
+
+.current {
+  display: block;
+  opacity: 1;
+}
+
 
 
 
